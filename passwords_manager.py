@@ -78,7 +78,7 @@ def get_password(service, username):
     :param username:
     :return: The wanted password in plain text
     """
-    if not check_if_exists():
+    if not check_if_exists(service, username):
         print "seems like there is no username and service like that"
         return None
     conn = sqlite3.connect(PASSWORD_MANAGER_DB_PATH)
@@ -127,6 +127,17 @@ def get_all_usernames():
     cursor = conn.cursor()
     q = cursor.execute("select service, username from auth")
     return q.fetchall()
+
+
+def get_username_by_service(service):
+    """
+
+    :return:
+    """
+    conn = sqlite3.connect(PASSWORD_MANAGER_DB_PATH)
+    cursor = conn.cursor()
+    q = cursor.execute("select username from auth where service = '{}'".format(service))
+    return q.fetchall()[0][0]
 
 
 def __select_all__():

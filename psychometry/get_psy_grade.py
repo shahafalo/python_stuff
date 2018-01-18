@@ -1,20 +1,26 @@
 from selenium import webdriver
-import time, os
+import time
+import os
 import send_mail
-def main():
+import sys
+sys.path.append("..")
+import passwords_manager
+
+
+def main(username_data, password_data):
     print "start"
     login_url = "https://www.nite.org.il/index.php/he/"
-    chromedriver = 'C:\scripts\chromedriver_win32\chromedriver.exe'
+    chromedriver = r'..\tools\chromedriver_win32\chromedriver.exe'
     os.environ["webdriver.chrome.driver"] = chromedriver
     driver = webdriver.Chrome(chromedriver)
-    driver.get("https://www.nite.org.il/index.php/he/")
+    driver.get(login_url)
     time.sleep(4)
     user = driver.find_element_by_name("loginName")
     password = driver.find_element_by_name("loginPwd")
     user.clear()
     password.clear()
-    user.send_keys(ID)
-    password.send_keys(PASSWORD)
+    user.send_keys(username_data)
+    password.send_keys(password_data)
     driver.find_element_by_id("login_submit").click()
     time.sleep(6)
     driver.find_element_by_class_name("top-link").click()
@@ -23,7 +29,7 @@ def main():
         old_page = f.read()
     if old_page != page_data:
         print "OMG there are changes!!!!"
-        send_mail.do_this("somthing just changed with the test!!!")
+        send_mail.do_this("something just changed with the test!!!")
         with open("C:\\temp\\web.html", "wb") as f:
             f.write(page_data)
     else:
@@ -34,6 +40,9 @@ def main():
     print "finish :)"
 
 
+service = "psy"
+username = passwords_manager.get_username_by_service(service)
+password = passwords_manager.get_password(service, username)
 while True:
-    main()
+    main(username, password)
     time.sleep(300)
