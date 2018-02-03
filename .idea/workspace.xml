@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0394ad46-e5b2-4bcc-b5a9-67b1e5e90713" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Datey_check/create_db.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kivy_apps/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kivy_apps/first_app_tutor/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Datey_check/main.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Datey_check/date_hash.db" afterPath="$PROJECT_DIR$/Datey_check/date_hash.db" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_tutor/mysite/polls/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_tutor/mysite/polls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,14 +95,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_db.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create_db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Datey_check/create_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="205">
+              <caret line="29" column="59" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="59" />
               <folding>
+                <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#122#323#0" expanded="false" />
-                <element signature="e#368#771#0" expanded="false" />
                 <element signature="e#500#701#0" expanded="false" />
                 <element signature="e#793#1320#0" expanded="false" />
                 <element signature="e#1749#2058#0" expanded="false" />
@@ -124,11 +111,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Datey_check/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#468#889#0" expanded="false" />
+                <element signature="e#921#1526#0" expanded="false" />
+                <element signature="e#1558#1698#0" expanded="false" />
+                <element signature="e#1753#1875#0" expanded="false" />
+                <element signature="e#1930#2366#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="passwords_manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/passwords_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="13">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="70" selection-end-column="16" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -148,6 +152,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>time</find>
+      <find>os</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,6 +173,7 @@
         <option value="$PROJECT_DIR$/kivy_apps/first_app.py" />
         <option value="$PROJECT_DIR$/kivy_apps/first_app_tutor/login_screen.py" />
         <option value="$PROJECT_DIR$/Datey_check/create_db.py" />
+        <option value="$PROJECT_DIR$/Datey_check/main.py" />
       </list>
     </option>
   </component>
@@ -235,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.create_db">
+  <component name="RunManager" selected="Python.main">
     <configuration name="create_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,38 +314,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="passwords_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Datey_check" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/passwords_manager.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datey_check/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.passwords_manager" />
-      <item index="1" class="java.lang.String" itemvalue="Python.get_psy_grade" />
-      <item index="2" class="java.lang.String" itemvalue="Python.first_app" />
-      <item index="3" class="java.lang.String" itemvalue="Python.login_screen" />
-      <item index="4" class="java.lang.String" itemvalue="Python.create_db" />
+      <item index="0" class="java.lang.String" itemvalue="Python.get_psy_grade" />
+      <item index="1" class="java.lang.String" itemvalue="Python.first_app" />
+      <item index="2" class="java.lang.String" itemvalue="Python.login_screen" />
+      <item index="3" class="java.lang.String" itemvalue="Python.create_db" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.create_db" />
-        <item index="1" class="java.lang.String" itemvalue="Python.login_screen" />
-        <item index="2" class="java.lang.String" itemvalue="Python.first_app" />
-        <item index="3" class="java.lang.String" itemvalue="Python.get_psy_grade" />
-        <item index="4" class="java.lang.String" itemvalue="Python.passwords_manager" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.create_db" />
+        <item index="2" class="java.lang.String" itemvalue="Python.login_screen" />
+        <item index="3" class="java.lang.String" itemvalue="Python.first_app" />
+        <item index="4" class="java.lang.String" itemvalue="Python.get_psy_grade" />
       </list>
     </recent_temporary>
   </component>
@@ -378,14 +384,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19494048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34046054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34046054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -408,7 +413,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -418,7 +423,7 @@
         <state relative-caret-position="85">
           <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#24#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -476,7 +481,7 @@
         <state relative-caret-position="85">
           <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#24#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -632,7 +637,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#24#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -719,26 +724,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datey_check/create_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="29" column="59" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#122#323#0" expanded="false" />
+            <element signature="e#500#701#0" expanded="false" />
+            <element signature="e#793#1320#0" expanded="false" />
+            <element signature="e#1749#2058#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/passwords_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="13">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="70" selection-end-column="16" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datey_check/create_db.py">
+    <entry file="file://$PROJECT_DIR$/Datey_check/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
           <folding>
-            <element signature="e#122#323#0" expanded="false" />
-            <element signature="e#368#771#0" expanded="false" />
-            <element signature="e#500#701#0" expanded="false" />
-            <element signature="e#793#1320#0" expanded="false" />
-            <element signature="e#1749#2058#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#468#889#0" expanded="false" />
+            <element signature="e#921#1526#0" expanded="false" />
+            <element signature="e#1558#1698#0" expanded="false" />
+            <element signature="e#1753#1875#0" expanded="false" />
+            <element signature="e#1930#2366#0" expanded="false" />
           </folding>
         </state>
       </provider>
